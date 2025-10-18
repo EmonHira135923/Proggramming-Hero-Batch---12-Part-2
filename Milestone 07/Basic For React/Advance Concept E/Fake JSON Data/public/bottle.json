@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Eco Water Bottle",
+    "brand": "GreenLife",
+    "capacity": "600 ml",
+    "material": "BPA-Free Plastic",
+    "price": 150,
+    "origin": "Bangladesh",
+    "color": "সবুজ",
+    "image": "https://images.unsplash.com/photo-1599058917210-47e01b937d7f?auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 2,
+    "name": "Traveler Steel Bottle",
+    "brand": "TravelMate",
+    "capacity": "1 Liter",
+    "material": "Stainless Steel",
+    "price": 300,
+    "origin": "India",
+    "color": "ধূসর",
+    "image": "https://images.unsplash.com/photo-1606107557192-6e425fe6190e?auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 3,
+    "name": "Kids Bottle",
+    "brand": "FunSip",
+    "capacity": "350 ml",
+    "material": "Plastic",
+    "price": 120,
+    "origin": "China",
+    "color": "লাল",
+    "image": "https://images.unsplash.com/photo-1600185366725-0d39da0d6ff5?auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 4,
+    "name": "Sports Bottle",
+    "brand": "ActiveHydro",
+    "capacity": "750 ml",
+    "material": "Plastic",
+    "price": 200,
+    "origin": "Bangladesh",
+    "color": "নীল",
+    "image": "https://images.unsplash.com/photo-1571689936663-033c9a0b6f28?auto=format&fit=crop&w=500&q=60"
+  }
+]

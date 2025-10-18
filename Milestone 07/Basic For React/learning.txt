@@ -1,0 +1,28 @@
++------------------+----------------------------+----------------------------+
+|     Level        |       Topics / Skills       |      Example Projects      |
++------------------+----------------------------+----------------------------+
+|    Easy          | - React Introduction        | - Simple Counter          |
+|  (Beginner)      | - Setup (Vite / CRA)       | - Hello World Component   |
+|                  | - JSX (HTML + JS)          | - Static Card UI          |
+|                  | - Function & Class Component|                            |
+|                  | - Props                     |                            |
+|                  | - useState Hook             |                            |
+|                  | - Event Handling            |                            |
+|                  | - Basic Styling (CSS)       |                            |
++------------------+----------------------------+----------------------------+
+|    Mid           | - Component Hierarchy       | - Todo App                |
+| (Intermediate)   | - Conditional Rendering     | - Form Handling           |
+|                  | - Lists & Keys              | - Movie List / API fetch  |
+|                  | - Forms (Controlled)        |                            |
+|                  | - useEffect Hook            |                            |
+|                  | - Routing (React Router)    |                            |
+|                  | - Context API (Basic State) |                            |
++------------------+----------------------------+----------------------------+
+|    Hard          | - Advanced Hooks (useReducer, useMemo, useCallback, custom hooks) | - Full Blog App       |
+|   (Advanced)     | - Performance Optimization (Lazy loading, React.memo, Suspense)    | - E-commerce App       |
+|                  | - Advanced State Management (Redux, Redux Toolkit)                   | - Social Media App     |
+|                  | - API Integration (REST API, Axios)                                   |                        |
+|                  | - Testing (Jest, React Testing Library)                               |                        |
+|                  | - Build & Deploy (Netlify, Vercel)                                    |                        |
+|                  | - TypeScript with React (Optional)                                     |                        |
++------------------+----------------------------+----------------------------+

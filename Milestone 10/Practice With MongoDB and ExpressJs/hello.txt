@@ -1,0 +1,69 @@
+1 ---> npm init -y
+
+2 ---> scripts start ---> node index.js
+
+3 ---> express ---> npm i express cors
+
+4 ---> port ---> process.env.PORT || 3000;
+
+5 ---> react project setup
+
+6 ---> Host Local Data Fetch
+
+7 ---> const import in Express ---> Middleware
+
+8 ---> cors --> npm install cors
+
+9 ---> cors --> app.use(cors())
+
+10 ---> CRUD OPREATION <--------
+
+11 ---> method ---> post and Router ---> post
+
+12 ---> Create a Form onSubmit use default behaviour change 
+
+13 ---> value in Form
+
+14 ---> post method in server side project
+
+// Not Server
+15 ---> url , method , content-type = "application/json" , body - stringfly.json({object})
+
+// Server 
+16 ----> app.use(express.json) for Middleware
+
+17 ----> post function ---> get newusers = res.body ---> newusers.id = users.  length+1 ---> users.push(newusers) ---> res.send(newusers)
+
+18 ---->  npm i express cors mongodb
+
+19 ----> MongoDB Create Account
+
+20 ----> Free Account SetUp ---> Network Create a User ---> Deploy your server ---> Add Any Network ---->
+
+21 ----> npm install mongodb -----> mongodb+srv://EmonHossainHira:<db_password>@practice-mongodb-setup.mu1mkzo.mongodb.net/?appName=Practice-MongoDB-Setup ----> change this <db_password> and set your password
+21 ----> npm install mongodb -----> mongodb+srv://EmonHossainHira:<db_password>@practice-mongodb-setup.mu1mkzo.mongodb.net/?appName=Practice-MongoDB-Setup ---> cmnt finaly 
+
+22 ----> All API Connet after connect server.
+
+23 ---->  Setup 14 to 17
+
+24 ----> MongoDB Documentation ----> Client Libaries ----> Node.js ----> CRUD OPREATION ----> Insert and follow docs
+
+25 ----> All Api here er jaigay post method use korbe and await use korlee must use async in req and res.
+
+26 ----> follow the docs and       const newusers = req.body;
+      const result = await myColl.insertOne(newusers);
+      res.send(result);
+
+27 ----> if (data.insertedId) {
+          alert("Database Data Added Succesfully", data);
+        } ====>> Check this
+
+28 ====> Find Value docs read query and cursor
+
+29 ====> get method use in server side and follow this 
+
+// Client Side
+30 ====> See your data in display ---> useState use and get id set your useState value 
+
+31 ====> 

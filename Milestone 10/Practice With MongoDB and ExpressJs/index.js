@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const { MongoClient, ServerApiVersion } = require("mongodb");
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -33,6 +33,13 @@ async function run() {
 
     // All API HERE
 
+    app.get("/users/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await myColl.findOne(query);
+      res.send(result);
+    });
+
     app.get("/users", async (req, res) => {
       const cursor = myColl.find();
       const allValues = await cursor.toArray();
@@ -45,9 +52,27 @@ async function run() {
       res.send(result);
     });
 
-    app.delete("/users",async(req,res)=>{
-      const id = req.query
-    })
+    app.patch("/users/:id", async (req, res) => {
+      const id = req.params.id;
+      const editusers = req.body;
+      const query = { _id: new ObjectId(id) };
+      const update = {
+        $set: {
+          name: editusers.name,
+          email: editusers.email,
+        },
+      };
+      const options = {};
+      const result = await myColl.updateOne(query, update, options);
+      res.send(result);
+    });
+
+    app.delete("/users/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await myColl.deleteOne(query);
+      res.send(result);
+    });
 
     await client.db("admin").command({ ping: 1 });
     console.log(

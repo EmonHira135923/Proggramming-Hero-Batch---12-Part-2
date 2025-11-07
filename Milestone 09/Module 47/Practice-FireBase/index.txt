@@ -1,0 +1,9 @@
+1 ----> Authentication
+
+2 ----> Authorization
+
+3 ----> console.firebase.google.com
+
+4 ----> firebase
+
+5 ----> 

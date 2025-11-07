@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "plan": "Basic",
+    "billing": "monthly",
+    "price": "9 USD",
+    "features": [
+      "1 Website",
+      "10 GB Storage",
+      "Free SSL",
+      "Basic Support",
+      "Unlimited Bandwidth",
+      "1 Email Account",
+      "Weekly Backup",
+      "DDoS Protection",
+      "99.9% Uptime",
+      "One-click Installer"
+    ]
+  },
+  {
+    "id": 2,
+    "plan": "Standard",
+    "billing": "monthly",
+    "price": "19 USD",
+    "features": [
+      "5 Websites",
+      "50 GB Storage",
+      "Free SSL & CDN",
+      "Priority Email Support",
+      "Unlimited Bandwidth",
+      "5 Email Accounts",
+      "Daily Backup",
+      "DDoS Protection",
+      "99.9% Uptime",
+      "One-click Installer"
+    ]
+  },
+  {
+    "id": 3,
+    "plan": "Premium",
+    "billing": "monthly",
+    "price": "29 USD",
+    "features": [
+      "Unlimited Websites",
+      "200 GB Storage",
+      "Free SSL, CDN & Backup",
+      "24/7 Premium Support",
+      "Unlimited Bandwidth",
+      "Unlimited Email Accounts",
+      "Real-time Backup",
+      "Advanced DDoS Protection",
+      "99.99% Uptime SLA",
+      "One-click Installer + Staging"
+    ]
+  }
+]
